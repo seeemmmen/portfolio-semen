@@ -139,7 +139,7 @@ header ul {
     color:#C7C7C7;
 }
 .projects{
-    width: 100%;
+    /*width: 100%;*/
     margin-left: 50px;
     display: flex;
     justify-content: center;
@@ -212,6 +212,156 @@ table hr {
     font-weight: 500;
     padding-top: 6px;
     display: flex;
+
+}
+
+.about-me{
+    width: 1200px;
+    height: 400px;
+    height: 400px;
+    margin-left: 108px;
+    margin-top: 122px;
+    margin-bottom: 391px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-me h1{
+    font-family: "Bebas Neue", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+.inforamtion-me h2{
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.inforamtion-me p{
+    color: #C7C7C7;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 16px;
+    margin-bottom: 53px;
+
+}
+.inforamtion-me a{
+    color: #D3E97A;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+}
+footer{
+    width: 1200px;
+    height: 770px;
+    position: relative;
+    bottom: 0;
+
+    margin : 0 auto ;
+}
+.left{
+    height: 611px;
+    float: left;
+    margin-bottom: 80px;
+}
+.left h1{
+    font-family: "Bebas Neue", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+.left p{
+    color: #C7C7C7;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 16px;
+}
+.left span {
+    border-bottom: 1px solid #D3E97A;
+
+}
+.left a {
+    text-decoration: none;
+    color:#C7C7C7;
+}
+.social-media{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.end{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 80px;
+}
+.right{
+    float: right;
+    margin-bottom: 80px;
+}
+.right label{
+    color: #C7C7C7;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}
+.right input{
+    background-color: #1A1A1A;
+    width: 600px;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 24px;
+
+}
+.right textarea{
+    background-color: #1A1A1A;
+    width: 600px;
+    height: 156px;
+    outline: none;
+    border: none;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    resize: none;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 24px;
+
+}
+.right button{
+    background-color: #D3E97A;
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
 
 }
 @media (max-width: 768px) {
