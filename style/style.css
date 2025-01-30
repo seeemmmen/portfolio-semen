@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #0A0A0A;
+}
+
+header {
+    top: 0;
+    left: 0;
+    height: 100px;
+    padding-top: 24px;
+    padding-left: 60px ;
+    padding-right: 60px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header p {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#C7C7C7;
+    font-size: 2rem;
+
+
+
+}
+header a{
+    text-decoration: none;
+    color: #C7C7C7;
+
+}
+
+header ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 200px;
+    height: 25px;
+    font-size: 16px;
+
+
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 30px;
+}
+
+.header-text {
+    max-width: 50%;
+}
+
+.image-me {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-me img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    width: 500px;
+}
+
+
+.header-text {
+    max-width: 50%;
+}
+
+
+
+
+
+.header-text{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #FFFFFF;
+
+}
+.header-text p{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color:#C7C7C7;
+}
+.action{
+    margin-top: 40px;
+    width: 320px;
+    height: 55px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.action button{
+    background-color: #D3E97A;
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+}
+.projects-featured{
+    width: 600px;
+    height: 138px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+
+.projects-featured h1{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+.projects-featured p{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color:#C7C7C7;
+}
+.projects{
+    width: 100%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+.project-content{
+    margin-top: 60px;
+    margin-left: 48px;
+    padding-bottom: 20px;
+}
+.project-content h2 {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.project-content p{
+    color: #C7C7C7;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.project-content table{
+    color: #FFFFFF;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    width: 576px;
+
+}
+table {
+    width: 100%;
+}
+
+table td {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+table hr {
+    width:576px ;
+    border: none;
+    border-top: 1px solid #C7C7C7;
+    margin: 10px 0;
+}
+.links-projects a {
+    color:#D3E97A;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    padding-top: 6px;
+    display: flex;
+
+}
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-text {
+        max-width: 100%;
+    }
+
+    .image-me {
+        justify-content: center;
+    }
+
+    .image-me img {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .hero-content {
+        padding: 100px;
+        gap: 50px;
+    }
+
+    .header-text {
+        font-size: 90px;
+    }
+
+    .image-me img {
+        width: 50%;
+    }
+
+    .header-text p {
+        font-size: 24px;
+    }
+
+    .action button {
+        width: 220px;
+        height: 70px;
+    }
+
+
+
+    header ul {
+        font-size: 18px;
+    }
+}
