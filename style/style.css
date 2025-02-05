@@ -216,14 +216,15 @@ table hr {
 }
 
 .about-me{
-    width: 1200px;
+    /*width: 1200px;*/
     height: 400px;
     height: 400px;
     margin-left: 108px;
     margin-top: 122px;
     margin-bottom: 391px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 25px;
 
 }
 .about-me h1{
@@ -256,11 +257,13 @@ table hr {
     font-optical-sizing: auto;
 }
 footer{
-    width: 1200px;
+    /*width: 1200px;*/
     height: 770px;
     position: relative;
     bottom: 0;
-
+    display: flex;
+    justify-content: center;
+    gap: 25px;
     margin : 0 auto ;
 }
 .left{
