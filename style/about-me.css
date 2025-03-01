@@ -52,55 +52,34 @@ header ul {
 
 }
 
-.hero-content {
+.about_me {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 50px;
-    gap: 30px;
+    height: 340px;
+    justify-content: center;
 }
 
-.header-text {
-    max-width: 50%;
-}
-
-.image-me {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.image-me img {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
-    width: 500px;
-}
-
-
-.header-text {
-    max-width: 50%;
-}
-
-
-
-
-
-.header-text{
+.about_me h1{
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
-    color: #FFFFFF;
-
+    color:#FFFFFF;
+    max-width: 50%;
+    font-size: 80px;
+    margin-right: 213px;
 }
-.header-text p{
-    font-family: "Bebas Neue", serif;
+
+.about_me h2{
+    font-family:"Manrope", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
-    color:#C7C7C7;
+    color:#FFFFFF;
+}
+.about_me p{
+    color: #C7C7C7;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 .action{
     margin-top: 40px;
@@ -128,144 +107,84 @@ header ul {
     background-color: rgba(211, 233, 122, 0);
     color: white;
 }
-.projects-featured{
-    width: 600px;
-    height: 138px;
-    margin-left: 50px;
-    margin-bottom: 80px;
-}
+.image-me{
 
-.projects-featured h1{
-    font-family: "Bebas Neue", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFFFFF;
-    font-size: 70px;
 }
-.projects-featured p{
-    font-family: "Bebas Neue", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    color:#C7C7C7;
+.image-me img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 120px;
 }
-.projects{
-    /*width: 100%;*/
-    margin-left: 50px;
+.capabiltis{
     display: flex;
+    height: 340px;
     justify-content: center;
+    margin-top: 120px;
+}
+.capabiltis h1{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#FFFFFF;
+    max-width: 50%;
+    font-size: 80px;
+    margin-right: 213px;
+}
+.capabiltis p{
+    color: #C7C7C7;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.skils{
+    margin-top: 32px;
+    display: flex;
     flex-direction: column;
-    gap: 30px;
-
-}
-.card{
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
 
 }
-.project-content{
-    margin-top: 60px;
-    margin-left: 48px;
-    padding-bottom: 20px;
+.column{
+    margin-bottom: 16px;
 }
-.project-content h2 {
+.column button{
+    padding: 20px;
+    background-color: transparent;
     font-family: "Manrope", serif;
     font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
-    font-size: 32px;
+    border-radius:25px;
+    border: 1px solid #484848;
     color: #FFFFFF;
-}
-.project-content p{
-    color: #C7C7C7;
-    font-family: "Manrope", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-.project-content table{
-    color: #FFFFFF;
-    font-family: "Manrope", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    width: 576px;
+    text-align: center;
+    margin-right: 16px;
 
 }
-table {
-    width: 100%;
-}
-
-table td {
-    display: inline-block;
-    padding-right: 20px;
-}
-
-table tr {
+.experience{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-table hr {
-    width:576px ;
-    border: none;
-    border-top: 1px solid #C7C7C7;
-    margin: 10px 0;
-}
-.links-projects a {
-    color:#D3E97A;
-    font-family: "Manrope", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    padding-top: 6px;
-    display: flex;
-
-}
-
-.about-me{
-    /*width: 1200px;*/
-    height: 400px;
-    height: 400px;
-    margin-left: 108px;
-    margin-top: 122px;
-    margin-bottom: 391px;
-    display: flex;
+    height: 340px;
     justify-content: center;
-    gap: 25px;
-
+    margin-top: 120px;
 }
-.about-me h1{
+.experience h1{
     font-family: "Bebas Neue", serif;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
-    color: #FFFFFF;
-    font-size: 70px;
+    color:#FFFFFF;
+    max-width: 50%;
+    font-size: 80px;
+    margin-right: 213px;
 }
-.inforamtion-me h2{
-    font-family: "Manrope", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 32px;
-    color: #FFFFFF;
-}
-.inforamtion-me p{
+.experience p{
     color: #C7C7C7;
     font-family: "Manrope", serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    margin-top: 16px;
-    margin-bottom: 53px;
-
-}
-.inforamtion-me a{
-    color: #D3E97A;
-    font-family: "Manrope", serif;
-    font-optical-sizing: auto;
 }
 footer{
     /*width: 1200px;*/
@@ -383,78 +302,73 @@ footer{
     background-color: rgba(211, 233, 122, 0);
     color: white;
 }
-@media (max-width: 768px) {
-    .hero-content {
+@media (max-width: 1200px) {
+    .about_me, .capabiltis, .experience {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
-    .header-text {
-        max-width: 100%;
+    .about_me h1, .capabiltis h1, .experience h1 {
+        margin-right: 0;
     }
-
-    .image-me {
-        justify-content: center;
-    }
-
-    .image-me img {
-        width: 80%;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    .hero-content {
-        padding: 100px;
-        gap: 50px;
-    }
-
-    .header-text {
-        font-size: 90px;
-    }
-
     .image-me img {
         width: 50%;
     }
+}
 
-    .header-text p {
-        font-size: 24px;
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        text-align: center;
     }
-
-    .action button {
-        width: 220px;
-        height: 70px;
-    }
-
-
-
     header ul {
-        font-size: 18px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .about_me h1, .capabiltis h1, .experience h1 {
+        font-size: 60px;
+    }
+    .image-me img {
+        width: 60%;
+    }
+    .right input, .right textarea {
+        width: 100%;
     }
 }
-@keyframes tracking-in-expand {
-    /*0% {*/
-    /*    letter-spacing: -0.5em;*/
-    /*    opacity: 0;*/
-    /*}*/
-    /*40% {*/
-    /*    opacity: 0.6;*/
-    /*}*/
-    /*100% {*/
-    /*    opacity: 1;*/
-    /*}*/
-    0% {
-        -webkit-filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
+
+@media (max-width: 768px) {
+    .action {
+        flex-direction: column;
     }
-    100% {
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        opacity: 1;
+    .action button {
+        width: 100%;
+    }
+    .image-me img {
+        width: 70%;
+    }
+    .skils {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media {
+        justify-content: center;
     }
 }
-.animate {
-    animation: tracking-in-expand 1s ease-in-out forwards;
+
+@media (max-width: 576px) {
+    .about_me h1, .capabiltis h1, .experience h1 {
+        font-size: 40px;
+    }
+    .image-me img {
+        width: 80%;
+    }
+    .left h1 {
+        font-size: 50px;
+    }
+    .right input, .right textarea {
+        font-size: 16px;
+    }
 }
