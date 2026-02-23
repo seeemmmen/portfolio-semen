@@ -102,21 +102,37 @@ header ul {
     font-size: 18px;
     color:#C7C7C7;
 }
-.action{
+.action {
     margin-top: 40px;
-    width: 320px;
-    height: 55px;
-    display: flex;
-    gap: 16px;
+    display: flex;           
+    align-items: center;      
+    gap: 20px;               
+    flex-wrap: wrap;          
+}
+
+.action a {
+    display: flex;            
     align-items: center;
 }
-.action button{
+
+.action img {
+    width: 60px;             
+    transition: transform ease-in-out 0.3s;
+}
+
+.action button {
     background-color: #D3E97A;
-    width: 180px;
+    padding: 0 32px;          
     height: 55px;
     border: none;
     border-radius: 30px;
-    transition: background-color ease-in-out 0.3s , color ease-in-out 0.3s;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.action  a{
+    text-decoration: none;
 }
 .action img{
     transition: transform ease-in-out 0.3s ;
@@ -149,27 +165,29 @@ header ul {
     font-size: 20px;
     color:#C7C7C7;
 }
-.projects{
-    /*width: 100%;*/
-    margin-left: 50px;
+.projects {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 30px;
-
+    flex-direction: column; 
+    align-items: center;    
+    gap: 100px;             
+    margin-top: 80px;
+    padding: 0 50px;       
 }
-.card{
+
+.card {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
-
+    max-width: 1200px;      
 }
-.project-content{
-    margin-top: 60px;
+
+.project-content {
+    flex: 1;               
+    margin-top: 0;         
     margin-left: 48px;
-    padding-bottom: 20px;
+    max-width: 600px;   
 }
 .project-content h2 {
     font-family: "Manrope", serif;
@@ -197,7 +215,60 @@ header ul {
 table {
     width: 100%;
 }
+.card img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.project-content table, 
+table hr,
+.right input,
+.right textarea {
+    width: 100% !important;
+    max-width: 100%;
+}
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 1024px) {
+    .card img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+    }
+
+    .project-content {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+    .project-content table {
+        width: 100%;
+    }
+
+    .projects-featured {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
 table td {
     display: inline-block;
     padding-right: 20px;
