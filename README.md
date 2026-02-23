@@ -1,1 +1,1 @@
-https://seeemmmen.github.io/portfolio-semen/
+https://portfolio-semen.vercel.app/
