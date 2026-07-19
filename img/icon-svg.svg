@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Обновленная контрастная SVG иконка SR для Семена Ротбарта -->
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    
+    <!-- 1. Рисуем залитый круг на фоне:
+         cx, cy - центр (16,16)
+         r - радиус (15, чтобы круг занимал почти все место)
+         fill - ЗАЛИВКА круга. Сделаем её темно-серой (#1A1A1A), чтобы она выделялась на черной вкладке
+         stroke - цвет ОБОДКА. Твой фирменный лаймовый (#D3E97A)
+         stroke-width - толщина ободка в 1 пиксель -->
+    <circle cx="16" cy="16" r="15" fill="#1A1A1A" stroke="#D3E97A" stroke-width="1"/>
+    
+    <!-- 2. Размещаем текст "SR":
+         x, y - координаты центра
+         text-anchor="middle" - центрируем по горизонтали
+         dominant-baseline="central" - центрируем по вертикали
+         fill - цвет БУКВ. Теперь он чисто белый (#FFFFFF) для максимальной видимости
+         font-family - шрифт без засечек
+         font-weight - жирность -->
+    <text x="16" y="16" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        SR
+    </text>
+</svg>

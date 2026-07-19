@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio Semen Rotbart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semen Rotbart</title>
+
     <meta name="description" content="Portfolio of Semen Rotbart, a front-end developer passionate about building accessible and user-friendly websites. View my projects including web apps built with JavaScript, React, Node.js, and MongoDB.">
     <meta name="keywords" content="Semen Rotbart, front-end developer, web development, portfolio, HTML, CSS, JavaScript, React, Node.js, MongoDB">
     <meta name="author" content="Semen Rotbart">
@@ -12,248 +14,233 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://cdn.phototourl.com/free/2026-07-19-2671c2e2-ae02-41ed-ab07-13bba870139f.jpg">
     <meta property="og:url" content="https://portfolio-semen.vercel.app/">
+
+    <link rel="icon" type="image/svg+xml" href="./img/icon-svg.svg">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+
 <header>
-    <p>Semen Rotabrt</p>
+    <p>Semen Rotbart</p>
     <ul>
-        <li><a href="#" onclick="scrollToSection('projects')" >Work</a></li>
-        <li><a href="#" onclick="scrollToSection('inforamtion-me')">About</a></li>
-        <li><a href="#" onclick="scrollToSection('footer')">Contact</a></li>
+        <li><a href="#projects" onclick="scrollToSection('projects')">Work</a></li>
+        <li><a href="about.html" onclick="scrollToSection('information-me')">About</a></li>
+        <li><a href="#footer" onclick="scrollToSection('footer')">Contact</a></li>
     </ul>
 </header>
+
 <div class="hero-content">
     <div class="header-text">
-        <h1>HI,I AM <br>
+        <h1>HI, I AM <br>
             SEMEN ROTBART.</h1>
         <p>A Ukraine-based front-end developer passionate about building <br>accessible and user-friendly websites. 🚀</p>
+
         <div class="action">
-          <a href="mailto:rotbartsemen@gmail.com">  <button>CONTACT ME</button></a>
-         <a href="https://www.linkedin.com/in/%D1%81%D0%B5%D0%BC%D0%B5%D0%BD-%D1%80%D0%BE%D1%82%D0%B1%D0%B0%D1%80%D1%82-9b2461345/">   <img src="./img/linkedin.svg" alt=""> </a>
-           <a href="https://github.com/seeemmmen"><img src="./img/github.svg" alt="">
-</a>
+            <a href="mailto:rotbartsemen@gmail.com"><button>CONTACT ME</button></a>
+            <a href="https://www.linkedin.com/in/%D1%81%D0%B5%D0%BC%D0%B5%D0%BD-%D1%80%D0%BE%D1%82%D0%B1%D0%B0%D1%80%D1%82-9b2461345/">
+                <img src="./img/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/seeemmmen">
+                <img src="./img/github.svg" alt="GitHub">
+            </a>
         </div>
     </div>
 
     <div class="image-me">
-        <img src="./img/me.jpg" alt="">
+        <img src="./img/me.png" alt="Semen Rotbart">
     </div>
 </div>
-<div class="projects-featured">
+
+<div id="projects" class="projects-featured">
     <h1>FEATURED PROJECTS</h1>
     <p>Here are some of the selected projects that showcase my passion for <br> front-end development.</p>
 </div>
+
 <div class="projects">
-    <div class="card">
-        <img src="./img/diet.png" alt="">
+
+    <div class="card hidden-element">
+        <img src="./img/diet.png" alt="Diet App">
+
         <div class="project-content">
             <h2>Diet</h2>
-            <p style="margin-top: 16px">A simple and flexible diet tracking application built with Node.js, Express, and MongoDB.<br>
-                Users can register, log in, manage their profile, and track meals and food items to support healthy eating habits.
 
+            <p style="margin-top:16px">
+                A simple and flexible diet tracking application built with Node.js, Express, and MongoDB.<br>
+                Users can register, log in, manage their profile, and track meals and food items to support healthy eating habits.
             </p>
 
-
             <table>
-                <tr>
-                    <td>Project Info</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
-                <tr>
-                    <td>Year</td>
-                    <td>2025</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
-                <tr>
-                    <td>Role</td>
-                    <td>Front-end Developer</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
+                <tr><td>Project Info</td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td>Year</td><td>2025</td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td>Role</td><td>Front-end Developer</td></tr>
+                <tr><td><hr></td></tr>
             </table>
 
             <div class="links-projects">
                 <a href="https://diet-1-4jh3.onrender.com">LIVE DEMO</a>
-                <a href="https://github.com/seeemmmen/diet/tree/master">SEE ON GITHUB <img src="./img/Vector.svg" alt="" style="width: 30px; height: 30px"></a>
+                <a href="https://github.com/seeemmmen/diet/tree/master">
+                    SEE ON GITHUB
+                    <img src="./img/Vector.svg" alt="" style="width:30px;height:30px">
+                </a>
             </div>
         </div>
     </div>
-    <div class="card">
-        <img src="./img/todo.png" alt="">
+
+    <div class="card hidden-element">
+        <img src="./img/todo.png" alt="To-do List">
+
         <div class="project-content">
             <h2>To-do List</h2>
-            <p style="margin-top: 16px">To-Do App
-                A simple and efficient to-do list application designed to help users organize their tasks effectively.<br>
-                Features • Add, edit, and delete tasks • Mark tasks as complete  <br>
-                •  Set due dates for tasks • User-friendly interface for seamless task management Installation & Usage <br>
-                This is a web-based application. Simply visit seeemmmen.github.io/to-do to start managing your tasks instantly—no installation required!<br>
-                Technologies Used • HTML, CSS, JavaScript • (Add any frameworks/libraries if applicable) <br>
 
+            <p style="margin-top:16px">
+                To-Do App A simple and efficient to-do list application designed to help users organize their tasks effectively.<br>
+                Features • Add, edit, and delete tasks • Mark tasks as complete<br>
+                • Set due dates for tasks • User-friendly interface for seamless task management Installation & Usage<br>
+                This is a web-based application. Simply visit seeemmmen.github.io/to-do to start managing your tasks instantly—no installation required!<br>
+                Technologies Used • HTML, CSS, JavaScript
             </p>
 
-
             <table>
-                <tr>
-                    <td>Project Info</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
-                <tr>
-                    <td>Year</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
-                <tr>
-                    <td>Role</td>
-                    <td>Front-end Developer</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
+                <tr><td>Project Info</td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td>Year</td><td>2024</td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td>Role</td><td>Front-end Developer</td></tr>
+                <tr><td><hr></td></tr>
             </table>
 
             <div class="links-projects">
                 <a href="https://seeemmmen.github.io/to-do/">LIVE DEMO</a>
-                <a href="https://github.com/seeemmmen/to-do.git">SEE ON GITHUB <img src="./img/Vector.svg" alt="" style="width: 30px; height: 30px"></a>
+                <a href="https://github.com/seeemmmen/to-do.git">
+                    SEE ON GITHUB
+                    <img src="./img/Vector.svg" alt="" style="width:30px;height:30px">
+                </a>
             </div>
         </div>
     </div>
-    <div class="card">
-        <img src="./img/repair.png" alt="">
+
+    <div class="card hidden-element">
+        <img src="./img/repair.png" alt="Car Repair">
+
         <div class="project-content">
             <h2>Car repair</h2>
-            <p style="margin-top: 16px">A simple car repair shop website built with HTML, CSS, and JavaScript,<br>
-                featuring both frontend pages (in the index.html, CSS, and JS folders) and a Node.js backend (server.js).<br>
-                The project includes configuration files (package.json, package-lock.json), static assets (img, style, script), <br>
-                and supports full-stack interaction—likely handling client requests and serving content dynamically. <br>
-                It appears to be a personal or demonstration project for a mechanic service site.</p>
 
+            <p style="margin-top:16px">
+                A simple car repair shop website built with HTML, CSS, and JavaScript,<br>
+                featuring both frontend pages and a Node.js backend.<br>
+                The project supports full-stack interaction and serves dynamic content.
+            </p>
 
             <table>
-                <tr>
-                    <td>Project Info</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
-                <tr>
-                    <td>Year</td>
-                    <td>2024</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
-                <tr>
-                    <td>Role</td>
-                    <td>Front-end Developer</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
+                <tr><td>Project Info</td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td>Year</td><td>2024</td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td>Role</td><td>Front-end Developer</td></tr>
+                <tr><td><hr></td></tr>
             </table>
 
             <div class="links-projects">
                 <a href="https://warszat-m2eh.onrender.com">LIVE DEMO</a>
-                <a href="https://github.com/seeemmmen/Warszat.git">SEE ON GITHUB <img src="./img/Vector.svg" alt="" style="width: 30px; height: 30px"></a>
+                <a href="https://github.com/seeemmmen/Warszat.git">
+                    SEE ON GITHUB
+                    <img src="./img/Vector.svg" alt="" style="width:30px;height:30px">
+                </a>
             </div>
         </div>
     </div>
-    <div class="card">
-        <img src="./img/currency.png" alt="">
+
+    <div class="card hidden-element">
+        <img src="./img/currency.png" alt="Currency Exchange">
+
         <div class="project-content">
             <h2>Currency exchange</h2>
-            <p style="margin-top: 16px">This project provides a currency exchange rate converter, <br>
-                where users can convert between USD and other selected currencies in real-time.<br>
-                It fetches the latest exchange rates using the CurrencyFreaks API.</p>
 
+            <p style="margin-top:16px">
+                This project provides a currency exchange rate converter,<br>
+                where users can convert between USD and other selected currencies in real-time.<br>
+                It fetches the latest exchange rates using the CurrencyFreaks API.
+            </p>
 
             <table>
-                <tr>
-                    <td>Project Info</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
-                <tr>
-                    <td>Year</td>
-                    <td>2025</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
-                <tr>
-                    <td>Role</td>
-                    <td>Front-end Developer</td>
-                </tr>
-                <tr>
-                    <td><hr></td>
-                </tr>
+                <tr><td>Project Info</td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td>Year</td><td>2025</td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td>Role</td><td>Front-end Developer</td></tr>
+                <tr><td><hr></td></tr>
             </table>
 
             <div class="links-projects">
                 <a href="https://seeemmmen.github.io/Currency-Exchange/">LIVE DEMO</a>
-                <a href="https://github.com/seeemmmen/Currency-Exchange.git">SEE ON GITHUB <img src="./img/Vector.svg" alt="" style="width: 30px; height: 30px"></a>
+                <a href="https://github.com/seeemmmen/Currency-Exchange.git">
+                    SEE ON GITHUB
+                    <img src="./img/Vector.svg" alt="" style="width:30px;height:30px">
+                </a>
             </div>
         </div>
     </div>
+
 </div>
 
+<div id="about-me" class="about-me">
+    <h1>ABOUT ME</h1>
 
-<div class="about-me">
-    <h1>
-        ABOUT ME
-    </h1>
     <div class="inforamtion-me">
-        <h2>I am a developer and I really love IT, <br> I am from Ukraine and am ready to work</h2>
-        <p>I am a front-end developer based in Ukraine looking for exciting opportunities. With a background in Mechanical Engineering, <br>
-            I focus on accessibility when developing. Passionate and curious about solving problems, I am currently exploring React.js, <br>
-            Webflow, and a bit of designing. When I'm not programming, I enjoy playing football, photography, and playing Valorant. Always <br>
-            eager to learn and improve my skills.</p>
+        <h2>I am a developer and I really love IT,<br>I am from Ukraine and am ready to work</h2>
+
+        <p>
+            I am a front-end developer based in Ukraine looking for exciting opportunities.
+            With a background in Mechanical Engineering, I focus on accessibility when developing.
+            Passionate and curious about solving problems, I am currently exploring React.js,
+            Webflow, and a bit of designing. When I'm not programming, I enjoy playing football,
+            photography, and playing Valorant. Always eager to learn and improve my skills.
+        </p>
+
         <a href="./links/about-me.html">MORE ABOUT ME</a>
     </div>
 </div>
 
+<footer id="footer" class="footer">
+    <div class="left">
+        <h1>LET'S CONNECT</h1>
 
-<footer class="footer">
- <div class="left">
-     <h1>
-         LET'S CONNECT
-     </h1>
-    <p>Say hello at <span > <a href="mailto:rotbartsemen@gmail.com">rotbartsemen@gmail.com</a></span></p>
-     <p>For more info, here’s my <span > <a href="https://amaranth-lilyan-35.tiiny.site">resume</a></span></p>
-     <div class="social-media">
-         <a href="https://github.com/seeemmmen"><img src="./img/bxl-github.svg.svg"></a>
-         <a href="https://www.instagram.com/seeemmmen/"><img src="./img/bxl-instagram.svg.svg"></a>
-         <a href="https://www.linkedin.com/in/%D1%81%D0%B5%D0%BC%D0%B5%D0%BD-%D1%80%D0%BE%D1%82%D0%B1%D0%B0%D1%80%D1%82-9b2461345/"><img src="./img/bxl-linkedin.svg.svg"></a>
-     </div>
-     <div class="end">
-         <p>© 2023 Semen Rotabrt</p>
-     </div>
+        <p>Say hello at <a href="mailto:rotbartsemen@gmail.com">rotbartsemen@gmail.com</a></p>
+        <p>For more info, here’s my <a href="https://amaranth-lilyan-35.tiiny.site">resume</a></p>
 
- </div>
+        <div class="social-media">
+            <a href="https://github.com/seeemmmen"><img src="./img/bxl-github.svg.svg" alt="GitHub"></a>
+            <a href="https://www.instagram.com/seeemmmen/"><img src="./img/bxl-instagram.svg.svg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/%D1%81%D0%B5%D0%BC%D0%B5%D0%BD-%D1%80%D0%BE%D1%82%D0%B1%D0%B0%D1%80%D1%82-9b2461345/"><img src="./img/bxl-linkedin.svg.svg" alt="LinkedIn"></a>
+        </div>
+
+        <div class="end">
+            <p>© 2026 Semen Rotbart</p>
+        </div>
+    </div>
+
     <div class="right">
         <form action="">
             <label for="name">Name</label><br>
-            <input type="text" placeholder="Name"><br>
-            <label for="name">Email</label><br>
-            <input type="text" placeholder="Email"><br>
-            <label for="name">Subject</label><br>
-            <input type="text" placeholder="Subcject"><br>
-            <label for="name">Message</label><br>
-            <textarea></textarea><br>
+            <input type="text" id="name" placeholder="Name"><br>
+
+            <label for="email">Email</label><br>
+            <input type="text" id="email" placeholder="Email"><br>
+
+            <label for="subject">Subject</label><br>
+            <input type="text" id="subject" placeholder="Subject"><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message"></textarea><br>
+
             <button type="submit">SEND</button>
         </form>
     </div>
 </footer>
+
 <script src="index.js"></script>
+
 </body>
 </html>
