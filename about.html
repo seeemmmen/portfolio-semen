@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me | Semen Rotbart</title>
 
-    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -15,8 +19,11 @@
         <header>
             <p>SEMEN ROTBART</p>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" style="color: #D3E97A;">About</a></li>
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" class="arrow-button"/>
+</svg>  
+                </a>
             </ul>
         </header>
 
@@ -34,16 +41,55 @@
             </div>
 
             <div class="information-me">
+                <h2>🏆 Hackathon Experience</h2>
+                <p>I thrive in fast-paced collaborative environments. I participated in an intensive 30-hour IT hackathon where my team and I developed a concept for an AI-driven mental health application. Beyond the technical ideation, I also took charge of the presentation, drafting and delivering the project pitch in Polish. It was an amazing experience in rapid problem-solving and teamwork under pressure.</p>
+            </div>
+
+            <div class="information-me">
                 <h2>🏋️‍♂️ Beyond the Screen</h2>
                 <p>When I step away from my code editor, I live a highly active and balanced lifestyle. You can usually find me at the gym pushing through an intense full-body split, playing football, or capturing moments with my camera. I am also deeply interested in culinary arts—I love cooking hearty, high-calorie meals from scratch, from baking fresh apple pies to making the perfect chicken ciabatta sandwich. To wind down, I enjoy competitive gaming like Valorant or fine-tuning setups in Assetto Corsa, and I even dedicate time to cultivating and caring for my indoor orchids.</p>
             </div>
+
+            <div id="carouselBasicExample" data-mdb-carousel-init class="carousel slide carousel-fade" data-mdb-ride="carousel" style="margin-top: 40px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+              
+              <div class="carousel-indicators">
+                <button data-mdb-button-init type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button data-mdb-button-init type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+                <button data-mdb-button-init type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/hackaton.jpg" class="d-block w-100" alt="Sunset Over the City" />
+                
+                </div>
+
+                <div class="carousel-item">
+                  <img src="./img/hackaton2.jpg" class="d-block w-100" alt="Canyon at Nigh" />
+                </div>
+
+                <div class="carousel-item">
+                  <img src="./img/hackaton3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
+                </div>
+              </div>
+
+              <button data-mdb-button-init class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button data-mdb-button-init class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
         </main>
 
         <footer class="footer">
             <div class="left">
                 <h1>LET'S CONNECT</h1>
                 <p>Feel free to reach out for collaborations or just a friendly chat.</p>
-                <a href="mailto:твоя_почта@gmail.com">Send me an email</a>
+                <a href="mailto:rotbartsemen@gmail.com">Send me an email</a>
             </div>
 
             <div class="end" style="width: 100%; text-align: center; margin-top: 40px;">
@@ -53,6 +99,8 @@
 
     </div>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+    
     <script src="js/index.js"></script>
 </body>
 </html>
