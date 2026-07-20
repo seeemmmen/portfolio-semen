@@ -10,16 +10,36 @@ function scrollToSection(sectionId) {
     const sections = document.getElementsByClassName(sectionId);
 
     if (sections.length > 0) {
-        sections[0].scrollIntoView({ behavior: 'smooth' });
-        console.log("Found section:", sections[0]);
+        const target = sections[0];
+        
+        const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+        const startPosition = window.scrollY;
+        const distance = targetPosition - startPosition;
+        
+        const duration = 1000; 
+        let startTimestamp = null;
+
+        function animationStep(timestamp) {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = timestamp - startTimestamp;
+            
+            let percentage = Math.min(progress / duration, 1);
+            
+            const easing = 1 - Math.pow(1 - percentage, 3);
+            
+            window.scrollTo(0, startPosition + (distance * easing));
+
+            if (progress < duration) {
+                window.requestAnimationFrame(animationStep);
+            }
+        }
+
+        window.requestAnimationFrame(animationStep);
+        console.log("Found section:", target);
     } else {
         console.error(`No element found with class '${sectionId}'`);
     }
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('.header-text h1').classList.add('animate');
-});
 
 const hiddenElements = document.querySelectorAll('.hidden-element');
 
